@@ -1,0 +1,41 @@
+<!-- Form Validation -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+    <form>
+        First Name: <input type="text" required>
+        <br>
+        Last Name: <input type="text" required>
+        <br>
+        Password: <input type="password" required minlength="8">
+        <br>
+        Gender : Male<input type="radio" name="gender" required> Female <input type="radio" name="gender" >
+        <br>
+        Hobbies: <br> <input type="checkbox" name="hobbies"> Reading <br>
+        <input type="checkbox" name="hobbies" >Writing
+        <br>
+        <input type="checkbox" name="hobbies" >Other
+        <br>
+        <br>
+        Address:
+        <textarea name="Address" placeholder="Enter your address here..." required></textarea>
+        <br>
+        Degree:
+        <select name="degree" >
+            <option value="bachelors_in_tech">B.Tech</option>
+            <option value="masters_in_tech">M.Tech</option>
+            <option value="bachelors_in_engineering">B.E</option>
+            <option value="masters_in_engineering">M.E</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        Mob. No: <input type="tel" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
