@@ -1,0 +1,67 @@
+<!-- Registration form -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <!-- registration Form -->
+    <h2>Registeration Form</h2>
+    <form>
+        <!-- Input for first name -->
+        <label for="first_name">First Name:</label>
+        <br>
+        <input type="text" name="first_name" id="first_name" required>
+        <br>
+        <br>
+
+        <!-- Input for last name -->
+        <label for="last_name">Last Name:</label>
+        <br>
+        <input type="text" name="last_name" id="last_name" required>
+        <br>
+        <br>
+
+        <!-- Input for password -->
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" id="password" minlength="8" required>
+        <p>Min password length is 8</p>
+        <br>
+        <br>
+
+        <!-- Input for email -->
+        <label for="email_address">Email Address:</label>
+        <br>
+        <input type="email" name="email" id="email_address" required>
+        <br>
+        <br>
+
+        <!-- Input for city -->
+        <label for="city_name">City:</label>
+        <br>
+        <input type="text" name="city" id="city_name" required>
+        <br>
+        <br>
+
+        <!-- Input for country -->
+        <label for="country_name">Country:</label>
+        <br>
+        <input type="text" name="country" id="country_name" required>
+        <br>
+        <br>
+
+        <!-- Input for gender -->
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+
+        <!-- Button for final submittion -->
+         <button type="submit">Register Now</button>
+    </form>
+</body>
+</html>
